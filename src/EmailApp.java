@@ -5,11 +5,15 @@ public class EmailApp {
 
     public class Email
     {
-        String firstName;
-        String lastName;
-        String password;
-        String department;
-        int mailboxCapacity;
-        String alternateEmail;
+        private String firstName;
+        private String lastName;
+        private String password;
+        private String department;
+        private int mailboxCapacity;
+        private String alternateEmail;
+
+        // Constructer to recieve firstname and lastname
+
+        // Ask for the department
     }
 }
