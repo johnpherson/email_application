@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="talend-dev" uuid="a10eb026-38ff-4b81-bf6d-4b7a0ed79cbc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pgdb1.dev.octanner.com:5432/data_load_etl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="localhost" uuid="c31471d4-dc3c-4b39-b328-a8d649d3f84c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="talend-qa" uuid="e13f86c6-b3a9-4fe0-b163-ff29dfaed536">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pgdb1.qa.octanner.com:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</project>
